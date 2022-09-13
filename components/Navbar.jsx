@@ -1,6 +1,6 @@
 import { Box, Container } from "@mui/material";
 import React from "react";
-
+import styles from "../styles/Header.module.css";
 function Navbar() {
   return (
     <Box className="container">
@@ -19,7 +19,7 @@ function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
             <a
-              className="navbar-brand"
+              className={styles.header}
               href="#"
               style={{
                 color: "#2D89FF",

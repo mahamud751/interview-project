@@ -6,6 +6,9 @@
   .regular_btn {
     margin-left: -60px;
   }
+  .header {
+    margin-left: 120px;
+  }
 }
 @media (max-width: 575.98px) {
   .card {
