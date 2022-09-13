@@ -1,11 +1,11 @@
-import { Container } from "@mui/material";
+import { Box, Container } from "@mui/material";
 import React from "react";
 
 function Navbar() {
   return (
-    <Container>
+    <Box className="container">
       <nav className="navbar navbar-expand-lg">
-        <div className="container-fluid ms-5">
+        <div className="container-fluid">
           <button
             className="navbar-toggler"
             type="button"
@@ -72,7 +72,7 @@ function Navbar() {
           </div>
         </div>
       </nav>
-    </Container>
+    </Box>
   );
 }
 

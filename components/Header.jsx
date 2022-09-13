@@ -9,16 +9,15 @@ import {
   Card,
   CardActions,
   Avatar,
+  Container,
 } from "@mui/material";
 import { Box } from "@mui/system";
-import img from "../public/assests/img/pose_2.png";
-import img2 from "../public/assests/img/Ellipse 5.png";
-import Image from "next/image";
+
 import styles from "../styles/Header.module.css";
 
 function Header() {
   return (
-    <>
+    <Container>
       <Grid container spacing={4}>
         <Grid item xs={12} md={7}>
           <Box
@@ -27,7 +26,6 @@ function Header() {
               justifyContent: "center",
               alignItems: "center",
               height: "700px",
-              padding: 3,
             }}
           >
             <Box>
@@ -146,7 +144,7 @@ function Header() {
           </Card>
         </Grid>
       </Grid>
-    </>
+    </Container>
   );
 }
 

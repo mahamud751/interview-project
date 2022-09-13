@@ -11,7 +11,7 @@ import React from "react";
 
 function Services() {
   return (
-    <Container className="mt-5">
+    <Container sx={{ marginTop: "112px" }}>
       <Typography
         className="text-center"
         variant="h3"
@@ -23,7 +23,7 @@ function Services() {
         Services For Your Health
       </Typography>
 
-      <Box className="d-lg-flex mt-5">
+      <Box className="d-lg-flex" sx={{ marginTop: "28px" }}>
         <Card style={{ marginLeft: 20, marginBottom: 10 }}>
           <CardContent className="d-flex">
             <Box>
@@ -110,36 +110,6 @@ function Services() {
             />
           </CardContent>
         </Card>
-      </Box>
-
-      <Box className="mt-5 p-3">
-        <Grid container spacing={3}>
-          <Grid item xs={12} md={8}>
-            <Typography sx={{ fontSize: 16, color: "#6C39FE" }}>
-              16+ Years Experiences
-            </Typography>
-            <Typography sx={{ fontSize: 32 }}>
-              We Are Always ensure Best Medical Treatment For Your Health
-            </Typography>
-            <Typography sx={{ fontSize: 14 }}>
-              simply dummy text of the printing and typesetting industry. Lorem
-              Ipsum has been the industry's standard dummy text ever since the
-              1500s, when an unknown printer took a galley of type and scrambled
-              it is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is that it has a more-or-less normal
-              distribution of letters, as opposed to using 'Content here,
-              content here', making it look lik
-            </Typography>
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <img
-              src="https://i.ibb.co/q9FQFMV/Group-12.png"
-              alt=""
-              style={{ marginLeft: 100 }}
-            />
-          </Grid>
-        </Grid>
       </Box>
     </Container>
   );
