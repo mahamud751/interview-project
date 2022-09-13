@@ -1,0 +1,15 @@
+@media (min-width: 992px) {
+  .card {
+    margin-left: 300px;
+    width: 200px;
+  }
+  .regular_btn {
+    margin-left: -60px;
+  }
+}
+@media (max-width: 575.98px) {
+  .card {
+    margin-top: -420px;
+    padding: 20px;
+  }
+}
