@@ -18,7 +18,7 @@ function Faq() {
         Get Your General Answer{" "}
       </Typography>
       <Grid container spacing={4} style={{ marginTop: "16px" }}>
-        <Grid item sx={12} md={6}>
+        <Grid item xs={12} md={6}>
           <Accordion
             style={{
               backgroundColor: "unset",
@@ -130,7 +130,7 @@ function Faq() {
             </AccordionDetails>
           </Accordion>
         </Grid>
-        <Grid item sx={12} md={6}>
+        <Grid item xs={12} md={6}>
           <Box sx={{ display: "flex", justifyContent: "center" }}>
             <Box sx={{ marginLeft: 20 }}>
               <img src="https://i.ibb.co/9tf7VkX/Group-26.png" alt="" />

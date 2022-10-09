@@ -8,7 +8,7 @@ function HospitalFeatures() {
   return (
     <Container style={{ marginTop: "56px" }}>
       <Grid container spacing={2}>
-        <Grid item sx={12} md={6}>
+        <Grid item xs={12} md={6}>
           <img
             src="https://i.ibb.co/nDx8cT9/Group-19.png
     "
@@ -27,7 +27,7 @@ function HospitalFeatures() {
             style={{ marginTop: -40 }}
           />
         </Grid>
-        <Grid item sx={12} md={6}>
+        <Grid item xs={12} md={6}>
           <Typography sx={{ fontSize: 16, color: "#2D89FF" }}>
             Our Hospital Feature
           </Typography>
